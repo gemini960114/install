@@ -11,7 +11,6 @@
 | [install_vscode.md](install_vscode.md) | VS Code 編輯器 |
 | [install_nodejs.md](install_nodejs.md) | Node.js |
 | [install_uv.md](install_uv.md) | uv(Python 套件與版本管理工具) |
-| [install_docker.md](install_docker.md) | Docker / Docker Compose |
 
 ## 建議安裝順序
 
@@ -20,4 +19,3 @@
 3. VS Code
 4. Node.js
 5. uv
-6. Docker — 放最後,因為常需要重開機或重新登入才會生效
