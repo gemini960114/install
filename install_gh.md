@@ -2,14 +2,15 @@
 
 ---
 
-## Linux
+## Linux(不需要 sudo)
 
 ```bash
-# Debian / Ubuntu
-sudo apt-get update && sudo apt-get install -y gh
-
-# CentOS / RHEL / Fedora
-sudo yum install -y gh
+VERSION=$(curl -s https://api.github.com/repos/cli/cli/releases/latest | grep tag_name | cut -d'"' -f4)
+mkdir -p ~/.local/gh ~/.local/bin
+curl -Lo /tmp/gh.tar.gz "https://github.com/cli/cli/releases/download/${VERSION}/gh_${VERSION#v}_linux_amd64.tar.gz"
+tar -xzf /tmp/gh.tar.gz -C ~/.local/gh --strip-components=1
+ln -sf ~/.local/gh/bin/gh ~/.local/bin/gh
+export PATH="$HOME/.local/bin:$PATH"
 ```
 
 ---

@@ -8,7 +8,6 @@
 |---|---|
 | [install_git.md](install_git.md) | Git 版本控制 |
 | [install_gh.md](install_gh.md) | GitHub CLI(操作 GitHub 的命令列工具) |
-| [install_vscode.md](install_vscode.md) | VS Code 編輯器 |
 | [install_nodejs.md](install_nodejs.md) | Node.js |
 | [install_uv.md](install_uv.md) | uv(Python 套件與版本管理工具) |
 
@@ -16,6 +15,5 @@
 
 1. Git — 其他工具的基礎
 2. GitHub CLI
-3. VS Code
-4. Node.js
-5. uv
+3. Node.js
+4. uv
