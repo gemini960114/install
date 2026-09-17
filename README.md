@@ -11,9 +11,14 @@
 | [install_nodejs.md](install_nodejs.md) | Node.js |
 | [install_uv.md](install_uv.md) | uv(Python 套件與版本管理工具) |
 
-## 建議安裝順序
+## 建議教學順序
 
-1. Git — 其他工具的基礎
-2. GitHub CLI
-3. Node.js
-4. uv
+1. **Git**([install_git.md](install_git.md))— 版本控制基礎,其他步驟的前提
+2. **GitHub CLI**([install_gh.md](install_gh.md))— 裝好後照 [example/setup/gh-auth.md](example/setup/gh-auth.md) 完成瀏覽器認證登入
+3. **練習 commit/push**([example/setup/git-commit-push.md](example/setup/git-commit-push.md))— 學會存版本、推上 GitHub
+4. **Node.js**([install_nodejs.md](install_nodejs.md))— 前端開發環境
+5. **uv**([install_uv.md](install_uv.md))— Python 開發環境
+6. **動手做範例**,由淺入深:
+   - `example/html-js-canvas/` — 免建置,最快看到成果
+   - `example/react/` — 練習 Node.js/React 工具鏈
+   - `example/python/` — 練習 uv + 科學計算/生資工具
