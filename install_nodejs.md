@@ -1,36 +1,11 @@
 # Node.js 安裝指南
 
----
+官方下載: https://nodejs.org/en/download
 
-## Linux / macOS
+版本選 **LTS**(例如 v24.21.0 LTS),不要選 Current 或標 EOL 的版本:
 
-推薦用 nvm 安裝，方便切換版本：
+- **LTS** — 穩定版,官方長期維護,一般開發用這個
+- **Current** — 最新功能版,支援時間短
+- **EOL** — 已停止維護,別選
 
-```bash
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
-```
-
-安裝完重開終端機，再安裝 Node.js：
-
-```bash
-nvm install --lts
-```
-
-> macOS 也可以直接用 Homebrew：`brew install node`
-
----
-
-## Windows
-
-```cmd
-winget install OpenJS.NodeJS.LTS
-```
-
----
-
-## 驗證安裝
-
-```bash
-node --version
-npm --version
-```
+Windows 下載格式選 **.msi** 即可。
