@@ -15,11 +15,18 @@ export PATH="$HOME/.local/bin:$PATH"
 
 ---
 
-## macOS
+## macOS(不需要 brew)
 
 ```bash
-brew install gh
+VERSION=$(curl -s https://api.github.com/repos/cli/cli/releases/latest | grep tag_name | cut -d'"' -f4)
+ARCH=$(uname -m); [ "$ARCH" = "x86_64" ] && ARCH=amd64
+mkdir -p ~/.local/bin
+curl -Lo /tmp/gh.zip "https://github.com/cli/cli/releases/download/${VERSION}/gh_${VERSION#v}_macOS_${ARCH}.zip"
+unzip -jo /tmp/gh.zip "*/bin/gh" -d ~/.local/bin
+export PATH="$HOME/.local/bin:$PATH"
 ```
+
+> 有裝 brew 的話也可以直接 `brew install gh`
 
 ---
 
