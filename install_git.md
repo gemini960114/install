@@ -26,9 +26,9 @@ brew install git
 
 ## Windows
 
-```cmd
-winget install --id Git.Git -e --source winget
-```
+前往 https://git-scm.com/download/win 下載安裝檔,直接執行安裝(一路 Next 即可)。
+
+> 沒有系統管理員權限的話,下載同一頁面的 **Portable ("thumbdrive edition")** 版本,解壓到任意資料夾即可使用,不需要安裝。
 
 ---
 
