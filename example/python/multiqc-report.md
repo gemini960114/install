@@ -1,4 +1,4 @@
-幫我用 MultiQC 把一堆 QC 報告整合成一份好看的 HTML 報告。整個專案放在一個叫 `multiqc-report` 的資料夾裡。
+幫我用 MultiQC 把一堆 QC 報告整合成一份好看的 HTML 報告。整個專案建在 `D:\antigravity\multiqc-report`。
 
 情境是跑完定序分析後,會有一堆工具各自產生的報告檔案散在不同資料夾(像 FastQC、samtools 之類的),想要一個指令就能把這些全部掃過去,彙整成一份總覽報告,方便一次看完所有樣本的品質狀況,不用一個一個檔案打開看。
 

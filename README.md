@@ -1,6 +1,6 @@
-# install
+# vscode-dev-onboarding
 
-常用開發工具的簡易安裝指南,涵蓋 Linux / macOS / Windows,每份文件只保留一行安裝指令加驗證方式。
+給學生的本地端開發環境教學材料:用 VS Code 在 Linux / macOS / Windows 安裝常用開發工具,再透過一系列動手做範例練習上手。
 
 ## 文件列表
 
@@ -20,5 +20,14 @@
 5. **uv**([install_uv.md](install_uv.md))— Python 開發環境
 6. **動手做範例**,由淺入深:
    - `example/html-js-canvas/` — 免建置,最快看到成果
+     - [four-bar-linkage.md](example/html-js-canvas/four-bar-linkage.md) — 曲柄搖桿機構動畫
+     - [snake.md](example/html-js-canvas/snake.md) — 貪食蛇遊戲
    - `example/react/` — 練習 Node.js/React 工具鏈
+     - [four-bar-linkage-react.md](example/react/four-bar-linkage-react.md) — 曲柄搖桿機構動畫(React 版)
+     - [snake-react.md](example/react/snake-react.md) — 貪食蛇遊戲(React 版)
    - `example/python/` — 練習 uv + 科學計算/生資工具
+     - [health-data-analysis.md](example/python/health-data-analysis.md) — 登革熱病例資料分析(requests + pandas + matplotlib)
+     - [multiqc-report.md](example/python/multiqc-report.md) — MultiQC 定序 QC 報告彙整
+     - [jupyter-notebook-vscode.md](example/python/jupyter-notebook-vscode.md) — 在 VS Code 用 uv 設定可跑 Jupyter Notebook 的 Python 環境
+     - [multiqc-report-notebook.md](example/python/multiqc-report-notebook.md) — 延續 multiqc-report,補上 Jupyter Notebook 互動式分析
+     - [health-data-analysis-notebook.md](example/python/health-data-analysis-notebook.md) — 延續 health-data-analysis,補上 Jupyter Notebook 互動式分析
